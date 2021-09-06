@@ -25,9 +25,8 @@ Steps to install python packages and run script
 	-> there should be no spaces between the keywords in the keywordfile)
 
 	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"
-
-
-
+	
+	
 Citation:
 If you use this script and find it useful for your research, please cite the source as: 
 
