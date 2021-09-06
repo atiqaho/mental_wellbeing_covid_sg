@@ -4,7 +4,7 @@ This repository includes the data preprocessing steps carried out in the researc
 
 The input can be an .xlsx or .csv file containing the respective social media data (eg. Facebook or Twitter). 
 
-1) Obtaining Mental Wellbeing dataset from Facebook data
+1. Obtaining Mental Wellbeing dataset from Facebook data
 
 Steps to install python packages and run script
 
@@ -25,7 +25,12 @@ Steps to install python packages and run script
 	-> there should be no spaces between the keywords in the keywordfile)
 
 	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"
-	
+
+
+2. Preprocessing datasets
+-Removing duplications
+-Influencer removal for Twitter dataset
+-Troll removal
 	
 Citation:
 If you use this script and find it useful for your research, please cite the source as: 
