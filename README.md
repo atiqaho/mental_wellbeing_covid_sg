@@ -24,15 +24,15 @@ Steps to install python packages and run script
 	
 	-> there should be no spaces between the keywords in the keywordfile)
 
-	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"<br/>
+	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"<br />
 
 
 2. Preprocessing datasets
--Removing duplications
--Influencer removal for Twitter dataset
--Troll removal<br/>
+- Removing duplications
+- Influencer removal for Twitter dataset
+- Troll removal<br /> 
 	
 Citation:
 If you use this script and find it useful for your research, please cite the source as: 
 
-For correspondence, please contact yangyp@ihpc.a-star.edu.sg
+For correspondence, please contact yangyp@ihpc.a-star.edu.sg<br />
