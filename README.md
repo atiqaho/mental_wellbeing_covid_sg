@@ -24,7 +24,8 @@ Steps to install python packages and run script
 	
 	-> there should be no spaces between the keywords in the keywordfile)
 
-	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"<br />
+	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"
+- Run through 'Keeping relevant MW data' code using Jupyter Notebook to get relevant Mental Wellbeing Facebook dataset<br />
 
 
 **2. Preprocessing datasets**
