@@ -14,7 +14,7 @@ Steps to install python packages and run script
 
 - Navigate to desired directory using cd based on where the script and data files are
 
-- Type in "python main_filtering.py <datafile> <column_name> <keywordfile> 
+- Type in "python main.py <datafile> <column_name> <keywordfile> 
 	
 	-> <datafile> can be .xlsx or .csv, 
 	
@@ -24,7 +24,7 @@ Steps to install python packages and run script
 	
 	-> there should be no spaces between the keywords in the keywordfile)
 
-	-> Example: python main_filtering.py fb_data.csv entry_text "FB MW keywords.txt"
+	-> Example: python main.py fb_data.csv entry_text "FB MW keywords.txt"
 - Run through 'Keeping relevant MW data' code using Jupyter Notebook to get relevant Mental Wellbeing Facebook dataset<br />
 
 
