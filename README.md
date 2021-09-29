@@ -14,7 +14,7 @@ Steps to install python packages and run script
 
 - Navigate to desired directory using cd based on where the script and data files are
 
-- Type in: python main.py <datafile> <column_name> <keywordfile>
+- Type in: "python main.py datafile column_name keywordfile"
 	
 	-> <datafile> can be .xlsx or .csv, 
 	
