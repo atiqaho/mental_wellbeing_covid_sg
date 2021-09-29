@@ -31,7 +31,7 @@ Steps to install python packages and run script
 **2. Preprocessing datasets**
 - Removing duplications
 - Influencer removal for Twitter dataset
-- Troll removal<br /> 
+- Troll removal including removing comments with email addresses, 1-character comments and comments with punctuation only<br /> 
 	
 Citation:
 If you use this script and find it useful for your research, please cite the source as: 
