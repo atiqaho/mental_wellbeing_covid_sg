@@ -1,0 +1,28 @@
+5281959998 - The New York Times
+6013004059 - unknown
+10513336322 - unknown
+
+
+SG PAGE ID
+93889432933, 129011692114, 592308557475467, 14440041382, 147858757571, 250525018422481, 345185573000
+
+"SingaporeHDB":     252840551409505,
+"ChannelNewsAsia":  93889432933,
+"TheStraitsTimes":  129011692114,
+"MothershipSG":     592308557475467,
+"theonlinecitizen": 14440041382,
+"todayonline":      147858757571,
+"TheIndependentSG": 250525018422481,
+"YahooSingapore":   345185573000,
+"theguardian":      10513336322,
+"scmp":             355665009819,
+"nytimes":          5281959998,
+"TheEconomist":     6013004059
+
+ChannelNewsAsia
+TheStraitsTimes
+MothershipSG
+theonlinecitizen
+todayonline
+TheIndependentSG
+YahooSingapore
