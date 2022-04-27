@@ -31,39 +31,20 @@ In running the code for preprocessing **Twitter** data, ideally it would be done
 
 Run the code in "grouping by date" folder to obtain data categorized by date rather than by comment.
 
+**3.Clean time series data**
+ 
+The time series data (daily aggregates) was pre-processed further by normalizing Z-score, first using difference to ensure stationarity, removing volatility by dividing by monthly standard deviation and removing seasonality by subtracting monthly means as a prerequisite to running Granger causality test. (This code is not ours and is taken from https://github.com/ritvikmath/Time-Series-Analysis/blob/master/Time%20Series%20Data%20Preprocessing.ipynb)
 
-Afterwards we obtained the daily aggregate or daily mean counts of each variable. 
-The data was pre-processed further by normalizing Z-score, first using difference to ensure stationarity, removing volatility by dividing by monthly standard deviation and removing seasonality by subtracting monthly means as a prerequisite to running Granger causality test.
+**4.Applying Granger Causality**
 
-
-Steps to install python packages and run script
-
-- Install the latest version of python (>=3.6) or create a conda virtual environment.
-
-- Open Command Prompt or Terminal depending on operating system (Windows, Linux or Mac OS)
-
-- Navigate to desired directory using cd based on where the script and data files are
-
-- Type in: "python main.py datafile column_name keywordfile"
-	
-	-> <datafile> can be .xlsx or .csv, 
-	
-	-> <column_name> should be a valid column in the data file,
-	
-	-> each row in <keywordfile> represents a single type of topic i.e. whether the keywords in the dataset match this filter, hence forming a single filter/topic
-	
-	-> there should be no spaces between the keywords in the keywordfile)
-
-	-> Example: python main.py fb_data.csv entry_text "FB MW keywords.txt"
-- Run through 'Keeping relevant MW data' code using Jupyter Notebook to get relevant Mental Wellbeing Facebook dataset<br />
+In applying granger causality on the dataset,
+1. Run the code "VAR model - granger causality LATEST 26APR2022.ipynb" to check for stationarity and to obtain p-values of Granger causality scores across all variables. The test used here is the chi-square test. (This code is not ours and is taken from https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/)
+2. Run the code "Granger causality test scores LATEST 26APR2022.ipynb" to obtain the no. of lags for the respective p-values, after manually sifting out significant values/interactions on your own based on earlier code. (This code is not ours and is taken from https://github.com/ritvikmath/Time-Series-Analysis/blob/master/Granger%20Causality.ipynb)
 
 
-**2. Preprocessing datasets**
-- Removing duplications
-- Influencer removal for Twitter dataset
-- Troll removal including removing comments with email addresses, 1-character comments and comments with punctuation only
-- Timezone conversion (from Unixtime to UTC to SGT)<br /> 
-	
+Credit:
+Apart from the authors/references mentioned above, the code in this project is written by Ajay Vishwanath, Brandon Loh Siyuan, Zhang Mila and Nur Atiqah Othman, either individually or collaboratively.
+
 Citation:
 If you use this script and find it useful for your research, please cite the source as: 
 
