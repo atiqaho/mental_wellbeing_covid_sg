@@ -5,6 +5,7 @@ This repository includes the data preprocessing steps carried out in the researc
 The input can be an .xlsx or .csv file containing the respective social media data (eg. Facebook or Twitter). 
 
 **1.Preprocessing datasets**
+
 For both the datasets of Facebook and Twitter, we applied the following data preprocessing steps: 
 - Timezone conversion (from Unixtime to UTC to SGT)
 - Removal of name at mentions for both Twitter and Facebook
@@ -27,6 +28,7 @@ In running the code for preprocessing **Twitter** data, ideally it would be done
 6. Preprocessing Twitter data 
 
 **2.Obtaining daily aggregates**
+
 Run the code in "grouping by date" folder to obtain data categorized by date rather than by comment.
 
 
