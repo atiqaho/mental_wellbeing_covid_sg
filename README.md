@@ -4,7 +4,35 @@ This repository includes the data preprocessing steps carried out in the researc
 
 The input can be an .xlsx or .csv file containing the respective social media data (eg. Facebook or Twitter). 
 
-**1. Obtaining Mental Wellbeing dataset from Facebook data**
+**1.Preprocessing datasets**
+For both the datasets of Facebook and Twitter, we applied the following data preprocessing steps: 
+1.	Timezone conversion (from Unixtime to UTC to SGT)
+2.	Removal of name at mentions for both Twitter and Facebook
+3.	Attempt at troll removal by removing duplicated comments, comments with troll-related keywords, email addresses and 1-character comments 
+4.	Other text preprocessing: digits replacement, removal of accented, non-ASCII characters, lowercase conversion, punctuation removal, URL removal, stopwords removal, tokenization, lemmatization
+
+In running the code for preprocessing **Facebook** data, ideally it would be done in the following order: 
+1. Getting SG pages only 
+2. Dropping duplicates
+3. Troll removal
+4. Timezone conversion
+5. Preprocessing FB data
+6. Removing name tags (this should be last step as it requires more processing time)
+
+In running the code for preprocessing **Twitter** data, ideally it would be done in the following order: 
+1. Dropping duplicates
+3. Troll removal
+4. Timezone conversion
+5. Twitter influencer tagging and adding emotion category
+6. Preprocessing Twitter data 
+
+**2.Obtaining daily aggregates**
+Run the code in "grouping by date" folder to obtain data categorized by date rather than by comment.
+
+
+Afterwards we obtained the daily aggregate or daily mean counts of each variable. 
+The data was pre-processed further by normalizing Z-score, first using difference to ensure stationarity, removing volatility by dividing by monthly standard deviation and removing seasonality by subtracting monthly means as a prerequisite to running Granger causality test.
+
 
 Steps to install python packages and run script
 
