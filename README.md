@@ -17,7 +17,7 @@ In running the code for preprocessing **Facebook** data, ideally it would be don
 	3. Troll removal
 	4. Timezone conversion
 	5. Preprocessing FB data
-	6. Removing name tags (this should be last step as it requires more processing time)
+	6. Removing name tags (this should be last step as it requires more processing time)<br />
 
 In running the code for preprocessing **Twitter** data, ideally it would be done in the following order: 
 1. Dropping duplicates
