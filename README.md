@@ -20,9 +20,10 @@ In running the code for preprocessing **Facebook** data, ideally it would be don
 
 In running the code for preprocessing **Twitter** data, ideally it would be done in the following order: 
 1. Dropping duplicates
-3. Troll removal
-4. Timezone conversion
-5. Twitter influencer tagging and adding emotion category
+2. Troll removal
+3. Twitter influencer tagging 
+4. Adding emotion category
+5. Get relevant date
 
 **2.Obtaining daily aggregates**
 
