@@ -31,7 +31,7 @@ Run the code in "grouping by date" folder to obtain data categorized by date rat
 
 **3.Clean time series data**
  
-The time series data (daily aggregates) was pre-processed further by normalizing Z-score, first using difference to ensure stationarity, removing volatility by dividing by monthly standard deviation and removing seasonality by subtracting monthly means as a prerequisite to running Granger causality test. (This code is not ours and is taken from https://github.com/ritvikmath/Time-Series-Analysis/blob/master/Time%20Series%20Data%20Preprocessing.ipynb)
+The time series data (daily aggregates) was pre-processed further by normalizing Z-score, first using difference to ensure stationarity, removing volatility by dividing by monthly standard deviation and removing seasonality by subtracting monthly means as a prerequisite to running time series analysis. (This code is not ours and is taken from https://github.com/ritvikmath/Time-Series-Analysis/blob/master/Time%20Series%20Data%20Preprocessing.ipynb)
 
 **4.Applying Granger Causality**
 
