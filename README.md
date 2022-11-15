@@ -6,21 +6,20 @@ The input can be an .xlsx or .csv file containing the respective social media da
 
 **1.Preprocessing datasets**
 
-For both the datasets of Facebook and Twitter, we applied the following data preprocessing steps: 
-- Timezone conversion (from Unixtime to UTC to SGT)
-- Attempt at troll removal by removing duplicated comments, comments with troll-related keywords, email addresses and 1-character comments 
 
 
 In running the code for preprocessing **Facebook** data, ideally it would be done in the following order: 
 1. Getting SG pages only 
 2. Dropping duplicates
 3. Troll removal
+   (removing duplicated comments, comments with troll-related keywords, email addresses and 1-character comments)
 4. Timezone conversion
 <br />
 
 In running the code for preprocessing **Twitter** data, ideally it would be done in the following order: 
 1. Dropping duplicates
 2. Troll removal
+   (removing duplicated comments, comments with troll-related keywords, email addresses and 1-character comments)
 3. Twitter influencer tagging 
 4. Adding emotion category
 5. Get relevant date
