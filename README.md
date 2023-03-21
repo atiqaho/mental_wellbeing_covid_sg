@@ -1,6 +1,6 @@
 # Mental Wellbeing
 
-This repository includes the data preprocessing steps carried out in the research article: [ ].
+This repository includes the data preprocessing steps carried out in the research article: Predicting Public Mental Health Needs in a Crisis using Situational Indicators and Social Media Emotions: A Singapore Big Data Study.
 
 The input can be an .xlsx or .csv file containing the respective social media data (eg. Facebook or Twitter). 
 
