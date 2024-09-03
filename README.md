@@ -36,7 +36,4 @@ Carry out ARIMA models on the factors that were found significant earlier (from 
 Credit:
 Apart from the authors/references mentioned above, the code in this project is written by Ajay Vishwanath, Brandon Loh Siyuan, Zhang Mila and Nur Atiqah Othman, either individually or collaboratively.
 
-Citation:
-If you use this script and find it useful for your research, please cite the source as: 
-
 For correspondence, please contact yangyp@ihpc.a-star.edu.sg<br />
