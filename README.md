@@ -1,20 +1,12 @@
 # Mental Wellbeing
 
-This repository includes the data preprocessing steps carried out in the research article: Predicting Public Mental Health Needs in a Crisis using Situational Indicators and Social Media Emotions: A Singapore Big Data Study.
+This repository includes the data preprocessing steps carried out in the research article: Predicting public mental health needs in a crisis using social media indicators: A Singapore big data study
 
-The input can be an .xlsx or .csv file containing the respective social media data (eg. Facebook or Twitter). 
+The input can be an .xlsx or .csv file containing the social media data. 
+
+Steps 1-4 are done in Python, whereas step 5 is done in R.
 
 **1.Preprocessing datasets**
-
-
-
-In running the code for preprocessing **Facebook** data, ideally it would be done in the following order: 
-1. Getting SG pages only 
-2. Dropping duplicates
-3. Troll removal
-   (removing duplicated comments, comments with troll-related keywords, email addresses and 1-character comments)
-4. Timezone conversion
-<br />
 
 In running the code for preprocessing **Twitter** data, ideally it would be done in the following order: 
 1. Dropping duplicates
@@ -38,6 +30,8 @@ In applying granger causality on the dataset,
 1. Run the code "VAR model - granger causality LATEST 26APR2022.ipynb" to check for stationarity and to obtain p-values of Granger causality scores across all variables. The test used here is the chi-square test. (This code is not ours and is taken from https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/)
 2. Run the code "Granger causality test scores LATEST 26APR2022.ipynb" to obtain the no. of lags for the respective p-values, after manually sifting out significant values/interactions on your own based on earlier code. (This code is not ours and is taken from https://github.com/ritvikmath/Time-Series-Analysis/blob/master/Granger%20Causality.ipynb)
 
+**5.Applying ARIMA models**
+Carry out ARIMA models on the factors that were found significant earlier (from the Granger Causality model) as a multivariate model, to see which model performs the best and which variables contribute to such a model.
 
 Credit:
 Apart from the authors/references mentioned above, the code in this project is written by Ajay Vishwanath, Brandon Loh Siyuan, Zhang Mila and Nur Atiqah Othman, either individually or collaboratively.
