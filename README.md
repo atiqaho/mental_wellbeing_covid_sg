@@ -1,4 +1,4 @@
-# Mental Wellbeing
+# Predicting public mental health needs
 
 This repository includes the data preprocessing steps carried out in the research article: Predicting public mental health needs in a crisis using social media indicators: A Singapore big data study
 
