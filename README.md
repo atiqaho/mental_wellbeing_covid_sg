@@ -33,7 +33,15 @@ In applying granger causality on the dataset,
 **5.Applying ARIMA models**
 Carry out ARIMA models on the factors that were found significant earlier (from the Granger Causality model) as a multivariate model, to see which model performs the best and which variables contribute to such a model.
 
-Credit:
-Apart from the authors/references mentioned above, the code in this project is written by Ajay Vishwanath, Brandon Loh Siyuan, Zhang Mila and Nur Atiqah Othman, either individually or collaboratively.
+**Code contribution**:
+Apart from the authors/references mentioned above, the code in this project is written by Ajay Vishwanath, Brandon Loh Siyuan, Zhang Mila, Raj Kumar Gupta and Nur Atiqah Othman, either individually or collaboratively. 
 
+The specific contributions are listed below: 
+- Ajay Vishwanath contributed to the "Twitter influencer tagging" script
+- Brandon Loh Siyuan contributed to as well as ran all the scripts for the ARIMA model analysis
+- Zhang Mila contributed to the "Troll removal" script
+- Raj Kumar Gupta contributed to the "Adding emotion category" script
+- Nur Atiqah Othman contributed to the remaining scripts, and ran all the scripts for the Granger causality analysis
+
+**Correspondence**
 For correspondence, please contact yangyp@ihpc.a-star.edu.sg<br />
